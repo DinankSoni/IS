@@ -1,6 +1,5 @@
 def encrypt(text,s):
     result = ""
-     # transfer the plain text
     for i in range(len(text)):
         char = text[i]
         # Encrypt uppercase characters 
